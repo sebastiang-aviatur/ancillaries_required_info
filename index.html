@@ -6,20 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ancilaries Required Info</title>
 </head>
-<style>
-    .screen_division {
-        width: 50%;
-        min-width: 700px;
-    }
-
-    #seat_map {
-        display: flex;
-        flex-wrap: wrap;
-    }
-</style>
-
+<link rel="stylesheet" href="./styles.css">
 <body>
-    <div id="seat_map">
+    <div id="baggageaLaCarteDefinitions_map" class="json_container">
+        <div class="screen_division">
+            <h2>Avianca baggageaLaCarteDefinitions</h2>
+            <pre id="avianca_response_baggageaLaCarteDefinitions"></pre>
+        </div>
+        <div class="screen_division">
+            <h2>Latam baggageaLaCarteDefinitions</h2>
+            <pre id="latam_response_baggageaLaCarteDefinitions"></pre>
+        </div>
+    </div>
+    <div id="baggageServiceListDefinitions" class="json_container">
+        <div class="screen_division">
+            <h2>Avianca baggageServiceListDefinitions</h2>
+            <pre id="avianca_response_baggageServiceListDefinitions"></pre>
+        </div>
+        <div class="screen_division">
+            <h2>Latam baggageServiceListDefinitions</h2>
+            <pre id="latam_response_baggageServiceListDefinitions"></pre>
+        </div>
+    </div>
+    
+    <div id="seat_map" class="json_container">
         <div class="screen_division">
             <h2>Avianca seatsMap</h2>
             <pre id="avianca_response_seats"></pre>
@@ -29,6 +39,8 @@
             <pre id="latam_response_seats"></pre>
         </div>
     </div>
+    
+    
     <script src="https://cdn.jsdelivr.net/npm/json-formatter-js@2.5.18/dist/json-formatter.umd.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/json-formatter-js@2.5.18/dist/json-formatter.min.css" rel="stylesheet">
 

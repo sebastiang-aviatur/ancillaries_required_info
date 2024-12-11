@@ -1,0 +1,15 @@
+.screen_division {
+    width: 45%;
+    min-width: 700px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.screen_division h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.json_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
