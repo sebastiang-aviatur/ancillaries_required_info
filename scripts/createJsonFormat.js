@@ -1,5 +1,5 @@
 import { AV_BAGGAGEALACARTEDEFINITIONS_REQUIRED_INFO, AVIANCA_BAGGAGEALACARTEDEFINITIONS } from "./baggages/avianca_baggageaLaCarteDefinitions.js";
-import { AV_BAGGAGE_SERVICE_LIST_DEFINTIONS_REQUIRED_INFO } from "./baggages/avianca_baggageServiceListDefinitions.js";
+import { AV_BAGGAGE_SERVICE_LIST_DEFINTIONS_REQUIRED_INFO, AVIANCA_BAGGAGE_SERVICE_LIST_DEFINTIIONS } from "./baggages/avianca_baggageServiceListDefinitions.js";
 import { LATAM_BAGGAGEALACARTEDEFINITIONS } from "./baggages/latam_baggageaLaCarteDefinitions.js.js";
 import { LATAM_BAGGAGE_SERVICE_LIST_DEFINTIONS } from "./baggages/latam_baggageServiceListDefinitions copy.js";
 import { AV_SEATSMAP_REQUIRED_INFO, AVIANCA_SEATSMAP } from "./seatsMap/avianca.js";
@@ -11,7 +11,7 @@ const json_avianca_map = new JSONFormatter(AVIANCA_SEATSMAP);
 const json_avianca_baggageaLaCarteDefinitions = new JSONFormatter(AVIANCA_BAGGAGEALACARTEDEFINITIONS); 
 const json_latam_baggageaLaCarteDefinitions = new JSONFormatter(LATAM_BAGGAGEALACARTEDEFINITIONS); 
 
-const json_avianca_response_baggageServiceListDefinitions = new JSONFormatter(AV_BAGGAGE_SERVICE_LIST_DEFINTIONS_REQUIRED_INFO); 
+const json_avianca_response_baggageServiceListDefinitions = new JSONFormatter(AVIANCA_BAGGAGE_SERVICE_LIST_DEFINTIIONS); 
 const json_latam_response_baggageServiceListDefinitions = new JSONFormatter(LATAM_BAGGAGE_SERVICE_LIST_DEFINTIONS); 
 
 document.querySelector("#latam_response_seats").appendChild(json_latam_map.render());

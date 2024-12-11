@@ -3,6 +3,7 @@ export const  AV_BAGGAGE_SERVICE_LIST_DEFINTIONS_REQUIRED_INFO = [
     'OwnerCode',
     'Name',
     'BookingInstructions',
+    'AddlDataMeasure'
  ]
 
 export const AVIANCA_BAGGAGE_SERVICE_LIST_DEFINTIIONS = {

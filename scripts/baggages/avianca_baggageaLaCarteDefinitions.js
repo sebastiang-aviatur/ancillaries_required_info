@@ -1004,7 +1004,14 @@ export const AVIANCA_BAGGAGEALACARTEDEFINITIONS = {
 export const AV_BAGGAGEALACARTEDEFINITIONS_REQUIRED_INFO = [
    'OfferItemID',
    'UnitPrice',
-   'Service',
-   'Eligibility',
+   'TotalAmount',
+   'BaseAmount',
    'CorrelationID',
+   'Service',
+   'ServiceID',
+   'ServiceDefinitionRefID',
+   'Eligibility',
+   'PaxRefID',
+   'FlightAssociations',
+   'PaxSegmentRefID',
 ]
