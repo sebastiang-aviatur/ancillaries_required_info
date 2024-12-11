@@ -1,7 +1,7 @@
 import { AV_BAGGAGEALACARTEDEFINITIONS_REQUIRED_INFO, AVIANCA_BAGGAGEALACARTEDEFINITIONS } from "./baggages/avianca_baggageaLaCarteDefinitions.js";
 import { AV_BAGGAGE_SERVICE_LIST_DEFINTIONS_REQUIRED_INFO, AVIANCA_BAGGAGE_SERVICE_LIST_DEFINTIIONS } from "./baggages/avianca_baggageServiceListDefinitions.js";
 import { LATAM_BAGGAGEALACARTEDEFINITIONS } from "./baggages/latam_baggageaLaCarteDefinitions.js.js";
-import { LATAM_BAGGAGE_SERVICE_LIST_DEFINTIONS } from "./baggages/latam_baggageServiceListDefinitions copy.js";
+import { LATAM_BAGGAGE_SERVICE_LIST_DEFINTIONS } from "./baggages/latam_baggageServiceListDefinitions.js";
 import { AV_SEATSMAP_REQUIRED_INFO, AVIANCA_SEATSMAP } from "./seatsMap/avianca.js";
 import { LATAM_SEATSMAP } from "./seatsMap/latam.js";
 
