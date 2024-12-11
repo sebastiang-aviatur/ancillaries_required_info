@@ -1005,6 +1005,6 @@ export const AV_BAGGAGEALACARTEDEFINITIONS_REQUIRED_INFO = [
    'OfferItemID',
    'UnitPrice',
    'Service',
-   'Elegibility',
+   'Eligibility',
    'CorrelationID',
 ]

@@ -57,6 +57,5 @@ const hightLigth = ($spansSelector, REQ_INFO)=>{
 
 document.addEventListener("DOMContentLoaded", ()=> {
     showInfo()
-    console.log('loaded');
 })
 document.addEventListener("click", showInfo)
