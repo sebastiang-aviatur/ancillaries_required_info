@@ -1,11 +1,3 @@
-export const  AV_BAGGAGE_SERVICE_LIST_DEFINTIONS_REQUIRED_INFO = [
-    'ServiceDefinitionID',
-    'OwnerCode',
-    'Name',
-    'BookingInstructions',
-    'AddlDataMeasure'
- ]
-
 export const AVIANCA_BAGGAGE_SERVICE_LIST_DEFINTIIONS = {
   SRV1: {
     ServiceDefinitionID: "SRV1",

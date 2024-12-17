@@ -1000,18 +1000,3 @@ export const AVIANCA_BAGGAGEALACARTEDEFINITIONS = {
        "CorrelationID":"933de0a2-3877-4d12-98c8-005d0151aaad"
     }
  };
-
-export const AV_BAGGAGEALACARTEDEFINITIONS_REQUIRED_INFO = [
-   'OfferItemID',
-   'UnitPrice',
-   'TotalAmount',
-   'BaseAmount',
-   'CorrelationID',
-   'Service',
-   'ServiceID',
-   'ServiceDefinitionRefID',
-   'Eligibility',
-   'PaxRefID',
-   'FlightAssociations',
-   'PaxSegmentRefID',
-]

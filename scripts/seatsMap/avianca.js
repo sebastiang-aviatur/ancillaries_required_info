@@ -3039,17 +3039,3 @@ export const AVIANCA_SEATSMAP = [
         }
     }
 ]
-
-export const AV_SEATSMAP_REQUIRED_INFO = [
-    'PaxSegmentRefID',
-    'CabinCompartment',
-    'CabinType',
-    'CabinTypeCode',
-    'SeatRow',
-    'RowNumber',
-    'Seat',
-    'CabinColumnID',
-    'OccupationStatusCode',
-    'CharacteristicCode',
-    'OfferItemRefID',
-]
