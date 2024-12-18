@@ -21,6 +21,8 @@ const AV_BAGGAGEALACARTEDEFINITIONS_REQUIRED_INFO = [
     'PaxRefID',
     'FlightAssociations',
     'PaxSegmentRefID',
+    'TaxSummary',
+    'TotalTaxAmount',
 ]
 
 let is_open = false; 
